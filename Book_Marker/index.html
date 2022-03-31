@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>My Favourite sites</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container mt-5 mb-3 py-2">
+            <h3 class=" font-weight-bolder">Bookmarker</h3>
+        </div>
+    </header>
+    <hr class="w-85 bg-dark">
+
+    <Section class="Bookmarks_table text-center">
+        <div class="container bg-light py-5">
+            <div class="home w-75 m-auto">
+                <h2> Bookmark your favorite sites</h2>
+
+
+                <div class="form-group py-3">
+                    <label class=" font-weight-bolder">Site Name</label>
+                    <input type="text" placeholder="Bookmark Name" class=" form-control form-control-sm" id="Bookmark">
+                </div>
+                <div class="form-group py-3">
+                    <label class=" font-weight-bolder">Site URL</label>
+                    <input type="text" placeholder="Website URL" class=" form-control form-control-sm" id="webUrl">
+
+                </div>
+                <button onclick="add_website()" class="btn btn-info">Submit</button>
+
+            </div>
+    </Section>
+    <section class="Data my-3" id="dataShow">
+
+    </section>
+    <hr class="w-85 bg-dark">
+
+    <footer>
+        <div class="container">
+            <h5 class="text-muted ">@Copyrights return to route 2020 </h5>
+        </div>
+       
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
